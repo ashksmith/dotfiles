@@ -11,7 +11,12 @@ call vundle#begin()
 
 
 Plugin 'VundleVim/Vundle.vim'
-
+"NERDtree
+Plugin 'scrooloose/nerdtree'
+"Syntax checker
+Plugin 'scrooloose/syntastic'
+"Highlights whitespac, :FixWhitespace to remove it
+Plugin 'bronson/vim-trailing-whitespace'
 
 
 Plugin 'adnasa/base16-colors'
