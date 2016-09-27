@@ -1,0 +1,87 @@
+[global_config]
+  title_transmit_bg_color = "#bf616a"
+  focus = system
+  title_inactive_bg_color = "#65737e"
+[keybindings]
+[profiles]
+  [[Base16 Mocha Light]]
+    palette = "#f5eeeb:#cb6077:#beb55b:#f4bc87:#8ab3b5:#a89bb9:#7bbda4:#d0c8c6:#7e705a:#cb6077:#beb55b:#f4bc87:#8ab3b5:#a89bb9:#7bbda4:#3b3228"
+    font = Inconsolata Medium 9
+    background_image = None
+    cursor_color = "#645240"
+    foreground_color = "#645240"
+    show_titlebar = False
+    copy_on_selection = True
+    background_color = "#f5eeeb"
+    allow_bold = False
+  [[Base16 Ashes Light]]
+    palette = "#F3F4F5:#C7AE95:#95C7AE:#AEC795:#AE95C7:#C795AE:#95AEC7:#C7CCD1:#747C84:#C7AE95:#95C7AE:#AEC795:#AE95C7:#C795AE:#95AEC7:#1C2023"
+    font = Inconsolata Medium 9
+    background_image = None
+    cursor_color = "#565E65"
+    foreground_color = "#565E65"
+    show_titlebar = False
+    copy_on_selection = True
+    background_color = "#F3F4F5"
+    allow_bold = False
+  [[Base16 Ocean Light]]
+    palette = "#eff1f5:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#c0c5ce:#65737e:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#2b303b"
+    font = Inconsolata Medium 9
+    background_image = None
+    cursor_color = "#4f5b66"
+    foreground_color = "#4f5b66"
+    show_titlebar = False
+    copy_on_selection = True
+    background_color = "#eff1f5"
+    allow_bold = False
+  [[default]]
+    use_system_font = False
+    font = Inconsolata Medium 9
+    background_image = None
+  [[custom]]
+    palette = "#101115:#191b20:#2a2c34:#41444f:#5e6271:#828799:#aeb1bd:#e1e2e7:#f68177:#7b97df:#56a2a4:#7997e2:#38b964:#23bdc2:#59c9cd:#f78fe7"
+    background_image = None
+    use_system_font = False
+    cursor_color = "#d2d4db"
+    foreground_color = "#d2d4db"
+    show_titlebar = False
+    font = Inconsolata Medium 9
+    background_color = "#08090c"
+  [[Base16 Default Light]]
+    palette = "#f5f5f5:#ac4142:#90a959:#f4bf75:#6a9fb5:#aa759f:#75b5aa:#d0d0d0:#505050:#ac4142:#90a959:#f4bf75:#6a9fb5:#aa759f:#75b5aa:#151515"
+    font = Inconsolata Medium 9
+    background_image = None
+    cursor_color = "#303030"
+    foreground_color = "#303030"
+    show_titlebar = False
+    copy_on_selection = True
+    background_color = "#f5f5f5"
+    allow_bold = False
+  [[Base16 Ashes Dark]]
+    palette = "#1C2023:#C7AE95:#95C7AE:#AEC795:#AE95C7:#C795AE:#95AEC7:#C7CCD1:#747C84:#C7AE95:#95C7AE:#AEC795:#AE95C7:#C795AE:#95AEC7:#F3F4F5"
+    background_image = None
+    cursor_color = "#C7CCD1"
+    foreground_color = "#C7CCD1"
+    copy_on_selection = True
+    background_color = "#1C2023"
+    allow_bold = False
+  [[Base16 Ocean Dark]]
+    palette = "#2b303b:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#c0c5ce:#65737e:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#eff1f5"
+    font = Courier 10 Pitch 9
+    background_image = None
+    use_system_font = False
+    cursor_color = "#c0c5ce"
+    foreground_color = "#c0c5ce"
+    show_titlebar = False
+    copy_on_selection = True
+    background_color = "#2b303b"
+[layouts]
+  [[default]]
+    [[[child1]]]
+      type = Terminal
+      parent = window0
+      profile = Base16 Ocean Dark
+    [[[window0]]]
+      type = Window
+      parent = ""
+[plugins]
