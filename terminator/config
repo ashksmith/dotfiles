@@ -4,70 +4,39 @@
   title_inactive_bg_color = "#65737e"
 [keybindings]
 [profiles]
-  [[Base16 Mocha Light]]
-    palette = "#f5eeeb:#cb6077:#beb55b:#f4bc87:#8ab3b5:#a89bb9:#7bbda4:#d0c8c6:#7e705a:#cb6077:#beb55b:#f4bc87:#8ab3b5:#a89bb9:#7bbda4:#3b3228"
-    font = Inconsolata Medium 9
+  [[Grape]]
+    palette = "#2d283f:#ed2261:#1fa91b:#8ddc20:#487df4:#8d35c9:#3bdeed:#9e9ea0:#59516a:#f0729a:#53aa5e:#b2dc87:#a9bcec:#ad81c2:#9de3eb:#a288f7"
     background_image = None
-    cursor_color = "#645240"
-    foreground_color = "#645240"
+    use_system_font = False
+    cursor_color = "#a288f7"
+    foreground_color = "#9f9fa1"
     show_titlebar = False
-    copy_on_selection = True
-    background_color = "#f5eeeb"
-    allow_bold = False
-  [[Base16 Ashes Light]]
-    palette = "#F3F4F5:#C7AE95:#95C7AE:#AEC795:#AE95C7:#C795AE:#95AEC7:#C7CCD1:#747C84:#C7AE95:#95C7AE:#AEC795:#AE95C7:#C795AE:#95AEC7:#1C2023"
-    font = Inconsolata Medium 9
+    font = Inconsolata Medium 10
+    background_color = "#171423"
+  [[Zenburn]]
+    palette = "#4d4d4d:#705050:#60b48a:#f0dfaf:#506070:#dc8cc3:#8cd0d3:#dcdccc:#709080:#dca3a3:#c3bf9f:#e0cf9f:#94bff3:#ec93d3:#93e0e3:#ffffff"
     background_image = None
-    cursor_color = "#565E65"
-    foreground_color = "#565E65"
-    show_titlebar = False
-    copy_on_selection = True
-    background_color = "#F3F4F5"
-    allow_bold = False
-  [[Base16 Ocean Light]]
-    palette = "#eff1f5:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#c0c5ce:#65737e:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#2b303b"
-    font = Inconsolata Medium 9
-    background_image = None
-    cursor_color = "#4f5b66"
-    foreground_color = "#4f5b66"
-    show_titlebar = False
-    copy_on_selection = True
-    background_color = "#eff1f5"
-    allow_bold = False
+    use_system_font = False
+    cursor_color = "#73635a"
+    foreground_color = "#dcdccc"
+    font = Inconsolata Medium 10
+    background_color = "#3f3f3f"
   [[default]]
-    use_system_font = False
-    font = Inconsolata Medium 9
     background_image = None
-  [[custom]]
-    palette = "#101115:#191b20:#2a2c34:#41444f:#5e6271:#828799:#aeb1bd:#e1e2e7:#f68177:#7b97df:#56a2a4:#7997e2:#38b964:#23bdc2:#59c9cd:#f78fe7"
+  [[N0tch2k]]
+    palette = "#929292:#e27373:#94b979:#ffba7b:#97bedc:#e1c0fa:#00988e:#dedede:#bdbdbd:#ffa1a1:#bddeab:#ffdca0:#b1d8f6:#fbdaff:#1ab2a8:#ffffff"
     background_image = None
     use_system_font = False
-    cursor_color = "#d2d4db"
-    foreground_color = "#d2d4db"
-    show_titlebar = False
-    font = Inconsolata Medium 9
-    background_color = "#08090c"
-  [[Base16 Default Light]]
-    palette = "#f5f5f5:#ac4142:#90a959:#f4bf75:#6a9fb5:#aa759f:#75b5aa:#d0d0d0:#505050:#ac4142:#90a959:#f4bf75:#6a9fb5:#aa759f:#75b5aa:#151515"
-    font = Inconsolata Medium 9
-    background_image = None
-    cursor_color = "#303030"
-    foreground_color = "#303030"
-    show_titlebar = False
-    copy_on_selection = True
-    background_color = "#f5f5f5"
-    allow_bold = False
-  [[Base16 Ashes Dark]]
-    palette = "#1C2023:#C7AE95:#95C7AE:#AEC795:#AE95C7:#C795AE:#95AEC7:#C7CCD1:#747C84:#C7AE95:#95C7AE:#AEC795:#AE95C7:#C795AE:#95AEC7:#F3F4F5"
-    background_image = None
-    cursor_color = "#C7CCD1"
-    foreground_color = "#C7CCD1"
-    copy_on_selection = True
-    background_color = "#1C2023"
-    allow_bold = False
+    cursor_color = "#ffa560"
+    foreground_color = "#dedede"
+    font = Inconsolata Medium 10
+    background_color = "#121212"
+  [[Jellybeans]]
+    use_system_font = False
+    font = Inconsolata Medium 10
   [[Base16 Ocean Dark]]
     palette = "#2b303b:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#c0c5ce:#65737e:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#eff1f5"
-    font = Courier 10 Pitch 9
+    font = Inconsolata Medium 10
     background_image = None
     use_system_font = False
     cursor_color = "#c0c5ce"
@@ -75,6 +44,15 @@
     show_titlebar = False
     copy_on_selection = True
     background_color = "#2b303b"
+  [[Seafoam Pastel]]
+    palette = "#757575:#825d4d:#728c62:#ada16d:#4d7b82:#8a7267:#729494:#e0e0e0:#8a8a8a:#cf937a:#98d9aa:#fae79d:#7ac3cf:#d6b2a1:#ade0e0:#e0e0e0"
+    background_image = None
+    use_system_font = False
+    cursor_color = "#57647a"
+    foreground_color = "#d4e7d4"
+    show_titlebar = False
+    font = Inconsolata Medium 10
+    background_color = "#243435"
 [layouts]
   [[default]]
     [[[child1]]]
