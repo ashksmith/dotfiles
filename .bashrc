@@ -114,4 +114,4 @@ if ! shopt -oq posix; then
   fi
 fi
 
-export PS1="\[$(tput bold)\]\[\033[38;5;214m\]λ\[$(tput sgr0)\]\[\033[38;5;141m\] \[$(tput sgr0)\]\[\033[38;5;133m\]\w\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;133m\]\\$\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
+port PS1="\[$(tput bold)\]\[\033[38;5;247m\]\u\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\]@\[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;248m\]\h\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput bold)\]\[$(tput sgr0)\]\[\033[38;5;247m\]\\$\[$(tput sgr0)\]\[$(tput sgr0)\]\[\033[38;5;15m\] \[$(tput sgr0)\]"
