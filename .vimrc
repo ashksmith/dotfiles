@@ -18,7 +18,7 @@ Plugin 'kien/ctrlp.vim'
 "Plugin 'vim-scripts/c.vim'
 Plugin 'adnasa/base16-colors'
 Plugin 'vim-airline/vim-airline-themes'
-
+Plugin 'ervandew/supertab'
 
 call vundle#end()
 filetype plugin indent on

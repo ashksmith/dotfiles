@@ -1,65 +1,20 @@
 [global_config]
-  title_transmit_bg_color = "#bf616a"
-  focus = system
-  title_inactive_bg_color = "#65737e"
 [keybindings]
-[profiles]
-  [[Grape]]
-    palette = "#2d283f:#ed2261:#1fa91b:#8ddc20:#487df4:#8d35c9:#3bdeed:#9e9ea0:#59516a:#f0729a:#53aa5e:#b2dc87:#a9bcec:#ad81c2:#9de3eb:#a288f7"
-    background_image = None
-    use_system_font = False
-    cursor_color = "#a288f7"
-    foreground_color = "#9f9fa1"
-    show_titlebar = False
-    font = Inconsolata Medium 10
-    background_color = "#171423"
-  [[Zenburn]]
-    palette = "#4d4d4d:#705050:#60b48a:#f0dfaf:#506070:#dc8cc3:#8cd0d3:#dcdccc:#709080:#dca3a3:#c3bf9f:#e0cf9f:#94bff3:#ec93d3:#93e0e3:#ffffff"
-    background_image = None
-    use_system_font = False
-    cursor_color = "#73635a"
-    foreground_color = "#dcdccc"
-    font = Inconsolata Medium 10
-    background_color = "#3f3f3f"
-  [[default]]
-    background_image = None
-  [[N0tch2k]]
-    palette = "#929292:#e27373:#94b979:#ffba7b:#97bedc:#e1c0fa:#00988e:#dedede:#bdbdbd:#ffa1a1:#bddeab:#ffdca0:#b1d8f6:#fbdaff:#1ab2a8:#ffffff"
-    background_image = None
-    use_system_font = False
-    cursor_color = "#ffa560"
-    foreground_color = "#dedede"
-    font = Inconsolata Medium 10
-    background_color = "#121212"
-  [[Jellybeans]]
-    use_system_font = False
-    font = Inconsolata Medium 10
-  [[Base16 Ocean Dark]]
-    palette = "#2b303b:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#c0c5ce:#65737e:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#eff1f5"
-    font = Inconsolata Medium 10
-    background_image = None
-    use_system_font = False
-    cursor_color = "#c0c5ce"
-    foreground_color = "#c0c5ce"
-    show_titlebar = False
-    copy_on_selection = True
-    background_color = "#2b303b"
-  [[Seafoam Pastel]]
-    palette = "#757575:#825d4d:#728c62:#ada16d:#4d7b82:#8a7267:#729494:#e0e0e0:#8a8a8a:#cf937a:#98d9aa:#fae79d:#7ac3cf:#d6b2a1:#ade0e0:#e0e0e0"
-    background_image = None
-    use_system_font = False
-    cursor_color = "#57647a"
-    foreground_color = "#d4e7d4"
-    show_titlebar = False
-    font = Inconsolata Medium 10
-    background_color = "#243435"
 [layouts]
   [[default]]
     [[[child1]]]
-      type = Terminal
       parent = window0
-      profile = Base16 Ocean Dark
+      type = Terminal
     [[[window0]]]
-      type = Window
       parent = ""
+      type = Window
 [plugins]
+[profiles]
+  [[default]]
+    background_color = "#fdf6e3"
+    background_image = None
+    cursor_color = "#000000"
+    font = Hermit Medium 8
+    foreground_color = "#657b83"
+    show_titlebar = False
+    use_system_font = False
