@@ -11,10 +11,34 @@
 [plugins]
 [profiles]
   [[default]]
-    background_color = "#fdf6e3"
     background_image = None
-    cursor_color = "#000000"
     font = Hermit Medium 8
-    foreground_color = "#657b83"
+    foreground_color = "#ffffff"
+    use_system_font = False
+  [[Base16 Ashes Light]]
+    allow_bold = False
+    background_color = "#f3f4f5"
+    background_image = None
+    copy_on_selection = True
+    cursor_color = "#565E65"
+    foreground_color = "#565e65"
+    palette = "#f3f4f5:#c7ae95:#95c7ae:#aec795:#ae95c7:#c795ae:#95aec7:#c7ccd1:#747c84:#c7ae95:#95c7ae:#aec795:#ae95c7:#c795ae:#95aec7:#1c2023"
+  [[Base16 Ocean Dark]]
+    background_color = "#2b303b"
+    background_image = None
+    copy_on_selection = True
+    cursor_color = "#c9ddff"
+    cursor_shape = ibeam
+    font = Hermit Medium 9
+    foreground_color = "#c0c5ce"
+    palette = "#2b303b:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#c0c5ce:#65737e:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#eff1f5"
     show_titlebar = False
     use_system_font = False
+  [[Base16 Ocean Light]]
+    allow_bold = False
+    background_color = "#eff1f5"
+    background_image = None
+    copy_on_selection = True
+    cursor_color = "#4f5b66"
+    foreground_color = "#4f5b66"
+    palette = "#eff1f5:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#c0c5ce:#65737e:#bf616a:#a3be8c:#ebcb8b:#8fa1b3:#b48ead:#96b5b4:#2b303b"
