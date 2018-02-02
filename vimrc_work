@@ -1,0 +1,54 @@
+set nocompatible
+" -- General Settings -- 
+
+filetype plugin indent on "Enable filetypes
+syntax enable 			" Turn on syntax highlighting
+set tabstop=2		" Set tab = 2 spaces for work coding style
+set number		" Show line numbers
+set showcmd 		" Show incomplete commands
+set incsearch		" Do incremental searching
+set hlsearch		" turn on search highlighting
+set ruler 			" Show curser positon at all times
+set shiftwidth=2 " auto indent is now 2 spaces rather than a tab
+
+" Lets captial W and Q work! For when caps lock is left on
+command! WQ wq
+command! Wq wq
+command! W w
+command! Q q
+
+
+" -- Plugins --
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+Plugin 'VundleVim/Vundle.vim'
+Plugin 'scooloose/nerdtree'  	" NERDTree
+Plugin 'moll/vim-node'		" Some kind of plugin for node and navigation etc
+Plugin 'ervandew/supertab'	" For tab autocomplete
+Plugin 'JISTR/Vim-nerdtree-tabs'
+Plugin 'HerringtonDarkholme/yats.vim'
+Plugin 'Raidmondi/delimitMate'
+Plugin 'bronson/vim-trailing-whitespace' " Highlights whitespac, :FixWhitespace to remove it
+Plugin 'bling/vim-airline'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'tpope/vim-surround'
+call vundle#end()
+
+" -- Plugin Settings
+nmap <silent> <leader>t :NERDTreeTabsToggle<CR> 	" Open and close NERD tab with \t
+let g:nerdtree_tabs_open_on_console_startup = 1   " Opens NERDTree on vim start
+
+autocmd BufNewFile,BufRead *.ts setlocal filetype=typescript " for enabling typescript highlighting"
+autocmd BufNewFile,BufRead *.tsx setlocal filetype=typescript 
+
+" -- delimitMate settings
+" let delimitMate_expand_cr = 1
+" let delimitMate_expand_space = 1
+augroup mydelimitMate
+  au!
+  au FileType markdown let b:delimitMate_nesting_quotes = ["`"]
+  au FileType tex let b:delimitMate_quotes = ""
+  au FileType tex let b:delimitMate_matchpairs = "(:),[:],{:},`:'"
+  au FileType python let b:delimitMate_nesting_quotes = ['"', "'"]
+augroup END
